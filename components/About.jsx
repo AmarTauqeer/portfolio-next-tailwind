@@ -26,7 +26,7 @@ const About = () => {
             company that will assist him in developing,improving, and obtaining
             the necessary skills in order to become the best engineer possible.
           </p>
-          <p className="px-4 py-2 text-gray-600 underline cursor-pointer text-blue-500">
+          <p className="px-4 py-2 underline cursor-pointer text-blue-500">
             <Link href="/#project">Check out some of my latest projects</Link>
           </p>
         </div>
