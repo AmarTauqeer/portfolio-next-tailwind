@@ -33,7 +33,7 @@ const DjangoInventory = () => {
           <p>Some description about the project</p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
-              href="https://1drv.ms/v/c/7e2cd935019f4cd8/EZNhnmrVNCdEjrcQN1CpE08BdSiAZGDkrO7ImpS348IRlw?e=9vtXQm"
+              href="https://1drv.ms/v/c/7e2cd935019f4cd8/EZNhnmrVNCdEjrcQN1CpE08BdSiAZGDkrO7ImpS348IRlw?e=bVlujW"
               target="_blank"
             >
               Demo
