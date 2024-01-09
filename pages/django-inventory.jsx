@@ -31,14 +31,14 @@ const DjangoInventory = () => {
           </p>
           <h2>Overview</h2>
           <p>Some description about the project</p>
-          {/* <button className="px-8 py-2 mt-4 mr-8">
+          <button className="px-8 py-2 mt-4 mr-8">
             <a
-              href="https://www.youtube.com/watch?v=l5Yq18G0EGw&ab_channel=AmarTauqeer"
+              href="https://1drv.ms/v/c/7e2cd935019f4cd8/EZNhnmrVNCdEjrcQN1CpE08BdSiAZGDkrO7ImpS348IRlw?e=9vtXQm"
               target="_blank"
             >
               Demo
             </a>
-          </button> */}
+          </button>
           <button className="px-8 py-2 mt-4">
             <a
               href="https://github.com/AmarTauqeer/inventory-management-system"
