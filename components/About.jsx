@@ -21,10 +21,12 @@ const About = () => {
             Passport, LocalStrategy, Local Storage, JavaScript, Jquery, HTML5,
             Web Programming Skills, E-Commerce, Asp.net MVC, C#, Entity
             framework, SQL Server, SQL server Management Studio, Linq, SAP
-            Crystal Reports, Database first approach, Code first approach. His
-            main ambitious is to be able to work for an encouraging and stable
-            company that will assist him in developing,improving, and obtaining
-            the necessary skills in order to become the best engineer possible.
+            Crystal Reports, Database first approach, Code first approach. He
+            also has ability to work in cloud based environment such as AWS EC2
+            cloud server. His main ambitious is to be able to work for an
+            encouraging and stable company that will assist him in
+            developing,improving, and obtaining the necessary skills in order to
+            become the best engineer possible.
           </p>
           <p className="px-4 py-2 underline cursor-pointer text-blue-500">
             <Link href="/#project">Check out some of my latest projects</Link>
