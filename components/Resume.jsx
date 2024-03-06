@@ -46,7 +46,7 @@ const Resume = () => {
               </div>
               <div className="flex">
                 <ul className="list-disc p-3">
-                  <li>Teckniker strasse 7, 6020 Innsbruck, Austria</li>
+                  <li>Linzerstrasse 182/6-7, 1140 Vienna, Austria</li>
                   <li>+43 688 6404 0449</li>
                   <li>amar.tauqeer@gmail.com, amar.tauqeer@wur.nl</li>
                 </ul>
