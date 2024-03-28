@@ -19,7 +19,7 @@ const WindoDesktopApp = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2 uppercase">Window Desktop Application</h2>
-          <h3>C#/ MSSQLSERVER</h3>
+          <h3>C#, MSSQLSERVER, Crystal Reports</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -31,18 +31,10 @@ const WindoDesktopApp = () => {
           <p>Some description about the project</p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
-              href="https://www.youtube.com/watch?v=CwJbuF-berM&ab_channel=AmarTauqeer"
-              target="_blank"
-            >
-              Demo
-            </a>
-          </button>
-          <button className="px-8 py-2 mt-4 mr-8">
-            <a
               href="https://www.youtube.com/watch?v=JI8m1BehSMc&ab_channel=AmarTauqeer"
               target="_blank"
             >
-              Demo-1
+              Demo
             </a>
           </button>
           <button className="px-8 py-2 mt-4">
@@ -64,6 +56,9 @@ const WindoDesktopApp = () => {
 
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> MSSQLSERVER
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Crystal Reports
               </p>
             </div>
           </div>

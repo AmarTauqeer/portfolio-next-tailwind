@@ -401,7 +401,7 @@ const Projects = () => {
                 Window Desktop Application
               </h3>
               <p className="pb-4 pt-2 text-white text-center">
-                Windows desktop application using C# and MSSQL SERVER.
+                Windows desktop application using C#, MSSQL SERVER, and Crystal Reports.
               </p>
               <Link href="/windo-desktop-app">
                 <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
