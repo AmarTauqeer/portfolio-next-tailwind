@@ -33,7 +33,7 @@ const DotnetCoreGondalInventory = () => {
           
           <button className="px-8 py-2 mt-4 mr-8">
             <a
-              href="https://youtu.be/KxLNIdppvQk"
+              href="https://youtu.be/nsEyJerCyzM"
               target="_blank"
             >
               Video
