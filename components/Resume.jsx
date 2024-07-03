@@ -9,7 +9,7 @@ const Resume = () => {
           <div className="relative flex justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group">
             <div className="flex flex-col w-64 md:w-full lg:w-full">
               <div className="text-xl text-center font-bold">Summary</div>
-              <div className="font-bold mb-1 text-orange-600">Amar Tauqeer</div>
+              <div className="font-bold mb-1 text-orange-600">Dr. Amar Tauqeer (Ph.D.)</div>
               <div className="text-justify">
                 Dr. Amar Tauqeer (Ph.D.) has more than 5 years of experience in software
                 development using different programming languages such as
