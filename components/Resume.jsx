@@ -11,7 +11,7 @@ const Resume = () => {
               <div className="text-xl text-center font-bold">Summary</div>
               <div className="font-bold mb-1 text-orange-600">Amar Tauqeer</div>
               <div className="text-justify">
-                Amar Tauqeer MSc has more than 5 years of experience in software
+                Dr. Amar Tauqeer (Ph.D.) has more than 5 years of experience in software
                 development using different programming languages such as
                 Python, Oracle, NodeJS, ReactJS, Java, and C#. He used many
                 frameworks for web backend development, such as Django, Flask,
@@ -46,7 +46,7 @@ const Resume = () => {
               </div>
               <div className="flex">
                 <ul className="list-disc p-3">
-                  <li>Linzerstrasse 182/6-7, 1140 Vienna, Austria</li>
+                  <li>Lerchenfelder gürtel 33/23, 1160 Vienna, Austria</li>
                   <li>+43 688 6404 0449</li>
                   <li>amar.tauqeer@gmail.com, amar.tauqeer@wur.nl</li>
                 </ul>
@@ -56,12 +56,10 @@ const Resume = () => {
                 DOCTOR OF PHILOSOPHY -PHD
               </div>
               <div className="bg-gray-300 font-bold w-[150px]">
-                10/2020 - present
+                10/2020 - 07/2024
               </div>
               <div className="italic mt-1">
-                WUR (Wageningen Data Competence Center and Consumption and
-                Healthy Lifestyles Chair Group, Wageningen University &
-                Research), The Netherlands
+              Department of Artificial Intelligence and Data Science,Wageningen University & Research, the Netherlands
               </div>
               <div className="mt-2">
                 Course Work: Semantic Web, Research Seminar: Semantic
@@ -124,12 +122,10 @@ const Resume = () => {
                 DOCTOR OF PHILOSOPHY -PHD THESIS
               </div>
               <div className="bg-gray-300 font-bold w-[150px]">
-                11/2023 - present
+                11/2023 - 07/2024
               </div>
               <div className="italic mt-1">
-                Wageningen Data Competence Center and Consumption and Healthy
-                Lifestyles Chair Group, Wageningen University & Research, the
-                Netherlands
+              Department of Artificial Intelligence and Data Science,Wageningen University & Research, the Netherlands
               </div>
               <div className="flex">
                 <ul className="list-disc p-3">

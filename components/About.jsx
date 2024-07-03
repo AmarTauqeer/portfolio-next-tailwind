@@ -13,8 +13,7 @@ const About = () => {
           </p>
           <h2 className="py-4 px-2 text-gray-600">Who I Am</h2>
           <p className="py-2 text-gray-600 text-justify p-4">
-            Amar Tauqeer is a professional developer and researcher at
-            Wageningen University & Research, the Netherlands (as an external PhD student). He has
+            Dr. Amar Tauqeer (Ph.D.) is a professional software developer. He has
             expreienced in Semantic Web, Knowledge Graph, Ontologies, Django,
             Flask, Node, Express, React, Java Spring Boot, Java Spring data jpa,
             Java spring web security, MySQl, MonogoDB, Middleware, JWT,
