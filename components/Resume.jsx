@@ -53,7 +53,7 @@ const Resume = () => {
               </div>
               <div className="font-bold mb-1 text-center">Education</div>
               <div className="font-bold mb-1 text-orange-600">
-                DOCTOR OF PHILOSOPHY -PHD
+                DOCTOR OF COMPUTER SCIENCE -PHD
               </div>
               <div className="bg-gray-300 font-bold w-[150px]">
                 10/2020 - 07/2024
@@ -119,7 +119,7 @@ const Resume = () => {
                 Professional Experience
               </div>
               <div className="font-bold mb-1 text-orange-600 mt-1">
-                DOCTOR OF PHILOSOPHY -PHD THESIS
+                DOCTOR OF COMPUTER SCIENCE -PHD THESIS
               </div>
               <div className="bg-gray-300 font-bold w-[150px]">
                 11/2023 - 07/2024
