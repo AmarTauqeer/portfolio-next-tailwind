@@ -28,7 +28,11 @@ const ProfessionalDashboard = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>
+            A comprihensive application provides admin dashboard for the
+            management of users, categories, and other stuff regarding admin
+            panel.
+          </p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://www.youtube.com/watch?v=3aEY13WcWwo&ab_channel=AmarTauqeer"

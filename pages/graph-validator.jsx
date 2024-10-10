@@ -28,7 +28,10 @@ const GraphValidator = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>
+            A knowledge graph (KG) validator to support KG validation about
+            Google Places, Open Street Map and Yandex Places etc.
+          </p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://www.youtube.com/watch?v=CwJbuF-berM&ab_channel=AmarTauqeer"

@@ -1,10 +1,10 @@
 import React from "react";
-import BlogApp from "../public/blog-app.jpg";
+import DotnetCoreNextEcommerce from "../public/dotnetcore-next-ecommerce.jpg";
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const BlogApplication = () => {
+const DotnetCoreNextEcommerceApp = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,13 +13,13 @@ const BlogApplication = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={BlogApp}
+          src={DotnetCoreNextEcommerce}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2 uppercase">Blog Application</h2>
+          <h2 className="py-2 uppercase">Dotnetcore and NextJS E-commerce Application</h2>
           <h3>
-            Django, Django rest framework, NextJS, ReactJS, Tailwind, SQLite
+          Dotnet Core, Dotnet Core Entityframework, Dapper, NextJS, NextUI, ReactJS, Tailwind, SQL Server
           </h3>
         </div>
       </div>
@@ -29,27 +29,19 @@ const BlogApplication = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>The application has the following features: </p>
-          <ul className="list-disc">
-            <li>Django authentication with JWT and authorization.</li>
-            <li>Single page application.</li>
-            <li>
-              Post filteration based on category and lastest posts User,
-              category, posts management.
-            </li>
-            <li>Responsive</li>
-          </ul>
+          <p>Application is developed with Dotnet Core, SQL SERVER, and NextJS. It provides an e-commerce solution including purchases with cards such as Master, Visa, etc,.</p>
+          
           <button className="px-8 py-2 mt-4 mr-8">
             <a
-              href="https://www.youtube.com/watch?v=qJkCtQHy3JU&ab_channel=AmarTauqeer"
+              href="https://youtu.be/8QY4ki7Ct7I"
               target="_blank"
             >
-              Demo
+              Video
             </a>
           </button>
           <button className="px-8 py-2 mt-4">
             <a
-              href="https://github.com/AmarTauqeer/SessionAuthenticationAuthorization"
+              href="https://github.com/AmarTauqeer/EcommerceStore"
               target="_blank"
             >
               Code
@@ -61,22 +53,28 @@ const BlogApplication = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Django
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Django Rest Framework
+                <RiRadioButtonFill className="pr-1" /> ReactJS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> NextJS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> SQLite
+                <RiRadioButtonFill className="pr-1" /> Tailwind
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Dotnet Core C#
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Dotnet Core Entity Framework
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> NextJS
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> SQL Server
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> NextUI
               </p>
             </div>
           </div>
@@ -89,4 +87,4 @@ const BlogApplication = () => {
   );
 };
 
-export default BlogApplication;
+export default DotnetCoreNextEcommerceApp;

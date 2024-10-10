@@ -28,7 +28,7 @@ const MernFullStack = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>Order management system using React, Express, Node, MongoDB and Bootstrap.</p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://www.youtube.com/watch?v=CwJbuF-berM&ab_channel=AmarTauqeer"

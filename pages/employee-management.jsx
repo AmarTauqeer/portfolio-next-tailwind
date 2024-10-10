@@ -19,9 +19,7 @@ const EmployeeManagement = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2 uppercase">Employee Management</h2>
-          <h3>
-            Spring/ MySQL/ React/ Bootstrap
-          </h3>
+          <h3>Spring/ MySQL/ React/ Bootstrap</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -30,7 +28,9 @@ const EmployeeManagement = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>
+            An employee management developed in SpringBoot, MySQL and React.
+          </p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://www.youtube.com/watch?v=dlks60SxjpQ&ab_channel=AmarTauqeer"
@@ -40,7 +40,10 @@ const EmployeeManagement = () => {
             </a>
           </button>
           <button className="px-8 py-2 mt-4">
-            <a href="https://github.com/AmarTauqeer/spring-react-auth-app" target="_blank">
+            <a
+              href="https://github.com/AmarTauqeer/spring-react-auth-app"
+              target="_blank"
+            >
               Code
             </a>
           </button>
@@ -61,7 +64,6 @@ const EmployeeManagement = () => {
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
-              
             </div>
           </div>
         </div>

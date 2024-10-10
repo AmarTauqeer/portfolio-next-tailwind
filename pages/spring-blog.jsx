@@ -19,9 +19,7 @@ const SpringBlog = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2 uppercase">Blog Application</h2>
-          <h3>
-          Java Spring Boot, NextJS, ReactJS, Tailwind, MySQL
-          </h3>
+          <h3>Java Spring Boot, NextJS, ReactJS, Tailwind, MySQL</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -30,7 +28,19 @@ const SpringBlog = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>A blog application with the following features: </p>
+          <ul className="list-disc">
+            <li>Java Spring boot 3+ web security. Authentication with JWT.</li>
+            <li>One to many, many to one, many to many relationships.</li>
+            <li>Role based authentication.</li>
+            <li>
+              Images upload store and reterive with other data from the server.
+            </li>
+            <li>Single page application.</li>
+            <li>Category wise search/filteration</li>
+            <li>CRUD operations on user and posts.</li>
+            <li>Responsive</li>
+          </ul>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://www.youtube.com/watch?v=fi4BAo5-g28&ab_channel=AmarTauqeer"

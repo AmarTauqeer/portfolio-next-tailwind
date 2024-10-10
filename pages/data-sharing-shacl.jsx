@@ -20,7 +20,8 @@ const DataSharingShacl = () => {
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2 uppercase">Data Sharing (GDPR) Contracts</h2>
           <h3>
-            Flask/ Knowledge graphs/ GraphDB/ SPARQL/ Swagger/ Bootstrap/ React/ SHACL
+            Flask/ Knowledge graphs/ GraphDB/ SPARQL/ Swagger/ Bootstrap/ React/
+            SHACL
           </h3>
         </div>
       </div>
@@ -30,7 +31,13 @@ const DataSharingShacl = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>
+            Automated Contracting Tool, a component of smashHit. smashHit is a
+            Horizon 2020 project with the primary objective of creating a secure
+            and trustworthy data-sharing platform with a focus on consent and
+            contract management in a distributed environment such as the
+            automotiveindustry, insurance and smart cities following GDPR.
+          </p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://www.youtube.com/watch?v=PkZfFXdVEp8&ab_channel=AmarTauqeer"
@@ -73,7 +80,6 @@ const DataSharingShacl = () => {
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> SHACL
               </p>
-              
             </div>
           </div>
         </div>

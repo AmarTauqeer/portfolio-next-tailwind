@@ -28,7 +28,22 @@ const MernRedux = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>A MERN stack application with the following key features: </p>
+          <ul className="list-disc">
+            <li>Single Page Application</li>
+            <li>Protected Routes</li>
+            <li>
+              Authentication using Mongodb, JWT(Json web token) and local
+              storage
+            </li>
+            <li>CRUD operation (Create, Read, Update, Delete) and Search</li>
+            <li>Responsive</li>
+            <li>Validation server side, validation client side</li>
+            <li>
+              Pagination and user management(register, profile update and Change
+              password)
+            </li>
+          </ul>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://www.youtube.com/watch?v=EBYiN_Xn55k&ab_channel=AmarTauqeer"
@@ -62,7 +77,6 @@ const MernRedux = () => {
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
-              
             </div>
           </div>
         </div>

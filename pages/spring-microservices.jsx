@@ -31,7 +31,17 @@ const SpringMicroservices = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>
+            An application supports microservices with the following features:{" "}
+          </p>
+          <ul className="list-disc">
+            <li>Employee management (Create, Read, Update, Delete).</li>
+            <li>Department management (Create, Read, Update, Delete).</li>
+            <li>User management (Create, Read, Update, Delete).</li>
+            <li>Authentication with JWT (using Spring Boot Web Security).</li>
+            <li>Role-based authorization.</li>
+            <li>Interaction between microservices using FeignClient</li>
+          </ul>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://www.youtube.com/watch?v=SMzG2y-uh5k&ab_channel=AmarTauqeer"

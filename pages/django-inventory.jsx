@@ -30,7 +30,24 @@ const DjangoInventory = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>
+            The application is developed with Django, MySQL, and NextJS and has
+            the following features:{" "}
+          </p>
+          <ul className="list-disc">
+            <li>Authentication with JWT (through secure http cookies).</li>
+            <li>
+              Images upload store and reterive with other data from the server.
+            </li>
+            <li>Single page application.</li>
+            <li>
+              Search/filteration based on category, products, suppliers, and
+              customers User, category, product, supplier, customer, stock,
+              sale, and purchase management.
+            </li>
+            <li>Reports in PDF</li>
+            <li>Responsive</li>
+          </ul>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://1drv.ms/v/c/7e2cd935019f4cd8/EZNhnmrVNCdEjrcQN1CpE08BdSiAZGDkrO7ImpS348IRlw?e=bVlujW"

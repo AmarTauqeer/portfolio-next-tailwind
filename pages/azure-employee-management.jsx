@@ -17,9 +17,12 @@ const AzureDotnetCoreEmployeeManagement = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2 uppercase">Employee Management Application on Microsoft Azure</h2>
+          <h2 className="py-2 uppercase">
+            Employee Management Application on Microsoft Azure
+          </h2>
           <h3>
-          Dotnet Core, Dotnet Core Entityframework, NextJS, ReactJS, Tailwind, SQL Server, Azure SQL Database
+            Dotnet Core, Dotnet Core Entityframework, NextJS, ReactJS, Tailwind,
+            SQL Server, Azure SQL Database
           </h3>
         </div>
       </div>
@@ -29,7 +32,21 @@ const AzureDotnetCoreEmployeeManagement = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>
+            The application is developed in combinition of Dotnetcore, NextJS,
+            and Sql Server with the following features
+          </p>
+          <ul className="list-disc">
+            <li>Dotnet Core authentication with Token and authorization.</li>
+            <li>Single page application.</li>
+            <li>Post filteration based on department and employee.</li>
+            <li>
+              User registration, signin, token, referesh token, department, and
+              employee management.
+            </li>
+            <li>Deployement on Microsoft Azure</li>
+            <li>Responsive</li>
+          </ul>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://coreemployeeapi.azurewebsites.net/swagger/index.html"
@@ -77,7 +94,8 @@ const AzureDotnetCoreEmployeeManagement = () => {
                 <RiRadioButtonFill className="pr-1" /> Dotnet Core C#
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Dotnet Core Entity Framework
+                <RiRadioButtonFill className="pr-1" /> Dotnet Core Entity
+                Framework
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> NextJS

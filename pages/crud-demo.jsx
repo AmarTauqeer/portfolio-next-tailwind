@@ -1,7 +1,7 @@
 import React from "react";
 import FlaskFastReact from "../public/flask-fastapi-react-bootstrap.jpg";
 import Image from "next/image";
-import {RiRadioButtonFill} from 'react-icons/ri'
+import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
 const CrudDemo = () => {
@@ -24,9 +24,11 @@ const CrudDemo = () => {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p className="text-xl tracking-widest uppercase text-[#5651e5]">Project</p>
+          <p className="text-xl tracking-widest uppercase text-[#5651e5]">
+            Project
+          </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>Flask, FastAPI, and React CRUD demonstration</p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://www.youtube.com/watch?v=SRI4HxyZgTU&ab_channel=AmarTauqeer"
@@ -48,11 +50,21 @@ const CrudDemo = () => {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-600 py-2 flex items-center"><RiRadioButtonFill className="pr-1" /> React</p>
-              <p className="text-gray-600 py-2 flex items-center"><RiRadioButtonFill className="pr-1" /> FastAPI</p>
-              <p className="text-gray-600 py-2 flex items-center"><RiRadioButtonFill className="pr-1" /> Bootstrap</p>
-              <p className="text-gray-600 py-2 flex items-center"><RiRadioButtonFill className="pr-1" /> Flask</p>
-              <p className="text-gray-600 py-2 flex items-center"><RiRadioButtonFill className="pr-1" /> JavaScript</p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> React
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> FastAPI
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Bootstrap
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Flask
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> JavaScript
+              </p>
             </div>
           </div>
         </div>

@@ -17,9 +17,12 @@ const DotnetCoreGondalInventory = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2 uppercase">Gondal Industry Inventory Management Dashboard</h2>
+          <h2 className="py-2 uppercase">
+            Gondal Industry Inventory Management Dashboard
+          </h2>
           <h3>
-          Dotnet Core, Dotnet Core Entityframework, NextJS, ReactJS, Tailwind, SQL Server
+            Dotnet Core, Dotnet Core Entityframework, NextJS, ReactJS, Tailwind,
+            SQL Server
           </h3>
         </div>
       </div>
@@ -29,13 +32,26 @@ const DotnetCoreGondalInventory = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
-          
+          <p>
+            An inventory management system with the following key features:{" "}
+          </p>
+          <ul className="list-disc">
+            <li>
+              Dotnet Core authentication with Token and authorization. Single
+              page application.
+            </li>
+            <li>
+              Search/filter based on category, products, suppliers, department,
+              employee, sale, purchase, and customers Department, employee,
+              category, product, supplier, customer, stock, sale, and purchase
+              management.
+            </li>
+            <li>Responsive</li>
+            <li>Reports using RDLC</li>
+          </ul>
+
           <button className="px-8 py-2 mt-4 mr-8">
-            <a
-              href="https://youtu.be/nsEyJerCyzM"
-              target="_blank"
-            >
+            <a href="https://youtu.be/nsEyJerCyzM" target="_blank">
               Video
             </a>
           </button>
@@ -65,7 +81,8 @@ const DotnetCoreGondalInventory = () => {
                 <RiRadioButtonFill className="pr-1" /> Dotnet Core C#
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Dotnet Core Entity Framework
+                <RiRadioButtonFill className="pr-1" /> Dotnet Core Entity
+                Framework
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> NextJS

@@ -30,7 +30,13 @@ const DataSharing = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>
+            Automated Contracting Tool, a component of smashHit. smashHit is a
+            Horizon 2020 project with the primary objective of creating a secure
+            and trustworthy data-sharing platform with a focus on consent and
+            contract management in a distributed environment such as the
+            automotiveindustry, insurance and smart cities following GDPR.
+          </p>
 
           <button className="px-8 py-2 mt-4">
             <a href="https://github.com/AmarTauqeer/Contract" target="_blank">
@@ -63,7 +69,6 @@ const DataSharing = () => {
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Swagger
               </p>
-              
             </div>
           </div>
         </div>

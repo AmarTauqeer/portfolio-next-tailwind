@@ -28,7 +28,7 @@ const WindoDesktopApp = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>A desktop application demonstration built with C#.</p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://www.youtube.com/watch?v=JI8m1BehSMc&ab_channel=AmarTauqeer"

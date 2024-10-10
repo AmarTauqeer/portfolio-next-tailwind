@@ -28,7 +28,14 @@ const Ecommerce = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>An E-commerce application with the following features: </p>
+          <ul className="list-disc">
+            <li>Single page application Authentication</li>
+            <li>Login system</li>
+            <li>Protected roots</li>
+            <li>CRUD application</li>
+            <li>Exporting data</li>
+          </ul>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://www.youtube.com/watch?v=TxBvz741hB8&ab_channel=AmarTauqeer"
@@ -38,10 +45,7 @@ const Ecommerce = () => {
             </a>
           </button>
           <button className="px-8 py-2 mt-4">
-            <a
-              href="https://github.com/AmarTauqeer/Ecommerce"
-              target="_blank"
-            >
+            <a href="https://github.com/AmarTauqeer/Ecommerce" target="_blank">
               Code
             </a>
           </button>

@@ -19,7 +19,8 @@ const AWSTodo = () => {
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2 uppercase">Django Next Todo on AWS</h2>
           <h3>
-          Django, Django rest framework, NextJS, ReactJS, Tailwind, SQLite, AWS EC2
+            Django, Django rest framework, NextJS, ReactJS, Tailwind, SQLite,
+            AWS EC2
           </h3>
         </div>
       </div>
@@ -29,12 +30,12 @@ const AWSTodo = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>
+            A simple todo application built in Django and Nextjs and deployed on
+            AWS EC2.
+          </p>
           <button className="px-8 py-2 mt-4 mr-8">
-            <a
-              href="http://18.193.251.150:3000/"
-              target="_blank"
-            >
+            <a href="http://18.193.251.150:3000/" target="_blank">
               Live Demo
             </a>
           </button>

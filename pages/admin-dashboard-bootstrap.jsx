@@ -28,7 +28,18 @@ const AdminDashboardBootstrap = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>
+            An application supports admin panel with the following features:{" "}
+          </p>
+          <ul className="list-disc">
+            <li>Single page application</li>
+            <li>
+              React, React-router, React-router-dom, Redux, Reduceres, Store
+            </li>
+            <li>Bootstrap, Django, REST API, Authentication</li>
+            <li>Complete CRUD operations</li>
+            <li>Swagger documentation</li>
+          </ul>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://www.youtube.com/watch?v=wAa52utKTMk&ab_channel=AmarTauqeer"
@@ -38,10 +49,7 @@ const AdminDashboardBootstrap = () => {
             </a>
           </button>
           <button className="px-8 py-2 mt-4">
-            <a
-              href="https://github.com/AmarTauqeer/Dashboard"
-              target="_blank"
-            >
+            <a href="https://github.com/AmarTauqeer/Dashboard" target="_blank">
               Code
             </a>
           </button>

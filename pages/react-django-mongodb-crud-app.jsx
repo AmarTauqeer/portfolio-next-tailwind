@@ -28,7 +28,7 @@ const ReactDjangoMongoDBCrud = () => {
             Project
           </p>
           <h2>Overview</h2>
-          <p>Some description about the project</p>
+          <p>A application developed in Django, MongoDB and React to show the CRUD operations.</p>
           <button className="px-8 py-2 mt-4 mr-8">
             <a
               href="https://www.youtube.com/watch?v=PdZE6vuM004&ab_channel=AmarTauqeer"
