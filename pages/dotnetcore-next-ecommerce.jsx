@@ -33,7 +33,7 @@ const DotnetCoreNextEcommerceApp = () => {
           
           <button className="px-8 py-2 mt-4 mr-8">
             <a
-              href="https://youtu.be/8QY4ki7Ct7I"
+              href="https://youtu.be/BZvygirm2Q0"
               target="_blank"
             >
               Video
