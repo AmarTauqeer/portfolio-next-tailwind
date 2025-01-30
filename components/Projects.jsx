@@ -15,7 +15,8 @@ import BlogApp from "../public/blog-app.jpg";
 import AWSEC2 from "../public/aws-ec2-deploy.jpg";
 import AZUREDOTNET from "../public/dotnetcore.jpg";
 import DotnetCoreTailwind from "../public/dotnetcorereacttailwind.jpg";
-import DotnetCoreNextEcommerce from "../public/dotnetcore-next-ecommerce.jpg"
+import DotnetCoreNextEcommerce from "../public/dotnetcore-next-ecommerce.jpg";
+import DotnetCoreMicroserviceK8s from "../public/DotnetcoreMicroserviceK8s.jpg";
 
 import Link from "next/link";
 
@@ -31,6 +32,27 @@ const Projects = () => {
         <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
             <Image
               className="rounded-xl group-hover:opacity-10"
+              src={DotnetCoreMicroserviceK8s}
+              alt=""
+            />
+            <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+              <h3 className="text-2xl text-white tracking-wider text-center">
+                Dotnetcore Microservicess with Kafka in K8s Application
+              </h3>
+              <p className="pb-4 pt-2 text-white text-center uppercase">
+                Dotnet Core, Dotnet Core Entityframework, Kafka, K8s, Minikube, NextJS,
+                NextUI, ReactJS, Tailwind, SQL Server
+              </p>
+              <Link href="/dotnetcore-micro-k8s">
+                <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
+                  More Info
+                </p>
+              </Link>
+            </div>
+          </div>
+          <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
+            <Image
+              className="rounded-xl group-hover:opacity-10"
               src={DotnetCoreNextEcommerce}
               alt=""
             />
@@ -39,8 +61,8 @@ const Projects = () => {
                 Dotnetcore and NextJS E-commerce Application
               </h3>
               <p className="pb-4 pt-2 text-white text-center uppercase">
-                Dotnet Core, Dotnet Core Entityframework, Dapper, NextJS, NextUI, ReactJS,
-                Tailwind, SQL Server
+                Dotnet Core, Dotnet Core Entityframework, Dapper, NextJS,
+                NextUI, ReactJS, Tailwind, SQL Server
               </p>
               <Link href="/dotnetcore-next-ecommerce">
                 <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
