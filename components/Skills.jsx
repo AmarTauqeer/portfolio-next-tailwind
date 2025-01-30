@@ -18,6 +18,9 @@ import mysql from "../public/mysql.png"
 import github1 from "../public/github1.png"
 import awsec2 from "../public/aws-ec2.png";
 import docker from "../public/docker.png";
+import minikube from "../public/minikube.jpeg"
+import k8s from "../public/kubernetes.png";
+import kafka from "../public/kafka.png";
 
 
 
@@ -317,6 +320,54 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Docker</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  className="rounded-xl"
+                  src={minikube}
+                  alt="/"
+                  width={64}
+                  height={64}
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Minikube</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  className="rounded-xl"
+                  src={k8s}
+                  alt="/"
+                  width={64}
+                  height={64}
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Kubernetes</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  className="rounded-xl"
+                  src={kafka}
+                  alt="/"
+                  width={64}
+                  height={64}
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Apache Kafka</h3>
               </div>
             </div>
           </div>
