@@ -97,4 +97,4 @@ const DotnetCoreMicroserviceKafkaK8sApp = () => {
   );
 };
 
-export default DotnetCoreNextEcommerceApp;
+export default DotnetCoreMicroserviceKafkaK8sApp;
