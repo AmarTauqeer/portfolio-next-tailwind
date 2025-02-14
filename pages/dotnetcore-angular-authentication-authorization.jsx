@@ -4,7 +4,7 @@ import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const DotnetCoreAngularAuthenticationAuthorization = () => {
+const DotnetCoreAngularAuthenticationAuthorizationApp = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -82,4 +82,4 @@ const DotnetCoreAngularAuthenticationAuthorization = () => {
   );
 };
 
-export default DotnetCoreMicroserviceKafkaK8sApp;
+export default DotnetCoreAngularAuthenticationAuthorizationApp;
