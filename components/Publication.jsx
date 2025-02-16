@@ -83,7 +83,7 @@ const Publication = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <h4 className="text-gray-600 text-lg">
               The smashHitCore ontology for GDPR-compliant sensor data sharing
-              in smart cities (submitted)
+              in smart cities
             </h4>
             <p>
               Anelia Kurteva, Tek Raj Chhetri, Amar Tauqeer, Rainer Hilscher,

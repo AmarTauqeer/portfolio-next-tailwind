@@ -40,10 +40,10 @@ const About = () => {
           <p className="py-2 text-gray-600 text-justify p-4">
             Semantic Web, Knowledge Graph, Ontologies, <b>Django, Flask</b>,
             Node, Express, React, Java Spring Boot, Java Spring data jpa, Java
-            spring web security, MySQl, MonogoDB, Middleware, JWT, Passport,
+            spring web security, MySQL, MongoDB, Middleware, JWT, Passport,
             LocalStrategy, Local Storage,{" "}
             <b>
-              Asp.net MVC, C#, Entity framework, SQL Server, SQL server
+              Asp.net MVC, C#, Entity framework, SQL Server, SQL Server
               Management Studio, Linq, SAP Crystal Reports, Database first
               approach, Code first approach.
             </b>{" "}
