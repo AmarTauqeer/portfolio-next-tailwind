@@ -26,13 +26,17 @@ const Navbar = () => {
       router.asPath === "/professional-dashboard" ||
       router.asPath === "/react-django-mongodb-crud-app" ||
       router.asPath === "/shopping-cart-paypal" ||
-      router.asPath === "/windo-desktop-app"
+      router.asPath === "/windo-desktop-app" ||
+      router.asPath === "/dotnetcore-angular-authentication-authorization" ||
+      router.asPath === "/dotnetcore-micro-k8s" ||
+      router.asPath === "/dotnetcore-next-ecommerce" ||
+      router.asPath === "/dotnetcore-gondal-inventory"
     ) {
-      setNavBg("transparent");
-      setLinkColor("#ecf0f3");
+      setNavBg("#2563eb");
+      setLinkColor("#ffffff");
     } else {
-      setNavBg("#ecf0f3");
-      setLinkColor("#1f2937");
+      setNavBg("#2563eb");
+      setLinkColor("#ffffff");
     }
   }, [router]);
 
@@ -61,10 +65,10 @@ const Navbar = () => {
         }
       >
         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-          <h3>
+          <h3 style={{ color: `${linkColor}` }}>
             <Link href="/" className="text-2xl">Portfolio</Link>
           </h3>
-          <div>
+          <div className="font-bold">
             <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
               <Link href="/">
                 <li className="ml-10 text-sm uppercase hover:border-b">Home</li>

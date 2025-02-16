@@ -9,14 +9,30 @@ const Resume = () => {
           <div className="relative flex justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group">
             <div className="flex flex-col w-64 md:w-full lg:w-full">
               <div className="text-xl text-center font-bold">Summary</div>
-              <div className="font-bold mb-1 text-orange-600">Dr. Amar Tauqeer (Ph.D.)</div>
+              <div className="font-bold mb-1 text-orange-600">
+                Dr. Amar Tauqeer (Ph.D.)
+              </div>
               <div className="text-justify">
-                Dr. Amar Tauqeer (Ph.D.) has more than 5 years of experience in software
-                development using different programming languages such as
-                Python, Oracle, NodeJS, ReactJS, Java, and C#. He used many
-                frameworks for web backend development, such as Django, Flask,
-                Asp.net MVC5, Java Spring Boot, and Plotly Dash. Recently, the
-                semantic stack has been used in EU project{" "}
+                I'm an experienced and professional full stack web developer
+                having more than 3 years of experience in{" "}
+                <b>full stack web development</b> and more than 3 years in
+                building desktop applications. In full stack development, I
+                mainly worked in backend programming languages, namely{" "}
+                <b>
+                  Python (Django, Flask), .Net technologies in C# (ASP Net MVC,
+                  ASP NET Web API, and finally ASP NET Core)
+                </b>
+                , and Java Spring Boot (basics). While on the frontend side, I
+                have built User Interfaces using
+                <b> ReactJS, NextJS, and Angular</b>. In many projects, I was
+                used to interacting with databases, such as{" "}
+                <b>SQL Server, MySQL</b>, Oracle 10G, and MongoDB in NoSQL
+                databases. Of course, I am familiar with{" "}
+                <b>
+                  Docker, Kubernetes, and Apache Kafka in a cloude based
+                  environment
+                </b>
+                . Recently, the semantic stack with Flask has been used in EU project{" "}
                 <a
                   href="https://cordis.europa.eu/project/id/871477"
                   target="_blank"
@@ -59,7 +75,8 @@ const Resume = () => {
                 10/2020 - 07/2024
               </div>
               <div className="italic mt-1">
-              Department of Artificial Intelligence and Data Science,Wageningen University & Research, the Netherlands
+                Department of Artificial Intelligence and Data
+                Science,Wageningen University & Research, the Netherlands
               </div>
               <div className="mt-2">
                 Course Work: Semantic Web, Research Seminar: Semantic
@@ -119,13 +136,26 @@ const Resume = () => {
                 Professional Experience
               </div>
               <div className="font-bold mb-1 text-orange-600 mt-1">
+                Wöber Systemgastronomie GmbH McDonalds
+              </div>
+              <div className="bg-gray-300 font-bold w-[150px]">
+                05/2024 - 01/2025
+              </div>
+              <div className="italic mt-1">Production Department</div>
+              <div className="flex">
+                <ul className="list-disc p-3">
+                  <li>Working in Kicthen</li>
+                </ul>
+              </div>
+              <div className="font-bold mb-1 text-orange-600 mt-1">
                 DOCTOR OF COMPUTER SCIENCE -PHD THESIS
               </div>
               <div className="bg-gray-300 font-bold w-[150px]">
                 11/2023 - 07/2024
               </div>
               <div className="italic mt-1">
-              Department of Artificial Intelligence and Data Science,Wageningen University & Research, the Netherlands
+                Department of Artificial Intelligence and Data
+                Science,Wageningen University & Research, the Netherlands
               </div>
               <div className="flex">
                 <ul className="list-disc p-3">
