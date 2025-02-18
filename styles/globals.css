@@ -6,6 +6,9 @@ html {
   --scroll-behavior: smooth !important;
   scroll-behavior: smooth !important;
 }
+.card.hide{
+  display: none
+}
 
 @layer base {
   body {
@@ -32,3 +35,4 @@ html {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
   }
 }
+

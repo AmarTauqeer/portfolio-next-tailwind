@@ -8,6 +8,7 @@ import Resume from "@/components/Resume";
 import Contact from "@/components/Contact";
 import Publication from "@/components/Publication";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <meta name="portfolio" content="Amar Tauqeer Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Main />
       <About />
       <Resume />
