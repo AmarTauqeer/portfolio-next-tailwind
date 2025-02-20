@@ -79,7 +79,8 @@ const Resume = () => {
                 Science,Wageningen University & Research, the Netherlands
               </div>
               <div className="mt-2">
-                Course Work: Semantic Web, Research Seminar: Semantic
+                Course Work: Software and Web Development (Django, Flask, ASP.NET Core, React JS, Node JS), 
+                Semantic Web, Research Seminar: Semantic
                 Technology, Text and Web Mining mit RapidMiner, Data Management
                 and Analysis for Environmental Sciences, Distributed systems,
                 Successful Meetings
@@ -94,7 +95,8 @@ const Resume = () => {
                 WU (Vienna University of Economics and Business), Austria
               </div>
               <div className="mt-2">
-                Course Work: Business process management, spatial business
+                Course Work: Software and Web Development (Django, Flask, ASP.NET Core, React JS, Node JS), 
+                Business process management, spatial business
                 intelligence, data mining and decision support systems,
                 Sustainable IS, Distributed systems, Database systems, SAP ERP,
                 SAPBW
@@ -161,14 +163,14 @@ const Resume = () => {
                 <ul className="list-disc p-3">
                   <li>Working on PhD Thesis</li>
                   <li>
-                    Technology: Semantic Web, Knowledge Graph, Ontologies,
-                    SPARQL, VocBench, protege
+                  Technology: Django, Flask, ASP.NET Core, Semantic Web, Knowledge Graph, Ontologies,
+                  SPARQL, VocBench, protege, GraphDB, SQL Server, MySQL, React JS, Node JS
                   </li>
                   <li>Employment type: Diploma thesis / dissertation</li>
                 </ul>
               </div>
               <div className="font-bold mb-1 text-orange-600 mt-1">
-                RESEARCHER
+                BACKEND DEVELOPER | RESEARCHER
               </div>
               <div className="bg-gray-300 font-bold w-[150px]">
                 04/2021 - 10/2023
@@ -189,14 +191,14 @@ const Resume = () => {
                     </a>
                   </li>
                   <li>
-                    Technology: Semantic Web, Knowledge Graph, Ontologies,
-                    SPARQL, VocBench, protege
+                  Technology: Semantic Web, Knowledge Graph, Ontologies,
+                  SPARQL, VocBench, protege, GraphDB, SQL Server, MySQL, React JS, Node JS
                   </li>
                   <li>Employment type: full-time</li>
                 </ul>
               </div>
               <div className="font-bold mb-1 text-orange-600 mt-1">
-                WORKING STUDENT
+                BACKEND DEVELOPER
               </div>
               <div className="bg-gray-300 font-bold w-[150px]">
                 09/2020 - 02/2021
@@ -215,7 +217,7 @@ const Resume = () => {
                 </ul>
               </div>
               <div className="font-bold mb-1 text-orange-600 mt-1">
-                FREELANCER / PROJECT WORK
+                FREELANCER | PROJECT WORK
               </div>
               <div className="bg-gray-300 font-bold w-[150px]">
                 05/2019 - 08/2020
@@ -231,7 +233,7 @@ const Resume = () => {
                 </ul>
               </div>
               <div className="font-bold mb-1 text-orange-600 mt-1">
-                FREELANCER / PROJECT WORK
+                FREELANCER | PROJECT WORK
               </div>
               <div className="bg-gray-300 font-bold w-[150px]">
                 03/2018 - 03/2019
