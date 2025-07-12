@@ -13,23 +13,23 @@ const About = () => {
           </p>
           <h2 className="py-4 px-2 text-gray-600">Who I Am</h2>
           <p className="py-2 text-gray-600 text-justify p-4">
-            I'm an experienced and professional full stack web developer having
-            more than 3 years of experience in <b>full stack web development</b>{" "}
-            and more than 3 years in building desktop applications. In full
-            stack development, I mainly worked in backend programming languages,
-            namely{" "}
+            I'm an experienced and professional full-stack web developer having
+            more than 3 years of experience in <b>full-stack web development</b>{" "}
+            and more than 3 years in building desktop applications. In
+            full-stack development, I mainly worked in backend programming
+            languages, namely{" "}
             <b>
-              Python (Django, Flask), .Net technologies in C# (ASP Net MVC, ASP
-              NET Web API, and finally ASP NET Core)
+              Python (Django, Flask), .Net technologies in C# (ASP.NET MVC, ASP.NET Web API, 
+              and finally ASP.NET Core 8+)
             </b>
             , and Java Spring Boot (basics). While on the frontend side, I have
             built User Interfaces using
-            <b> ReactJS, NextJS, and Angular</b>. In many projects, I was used
-            to interacting with databases, such as <b>SQL Server, MySQL</b>,
+            <b> ReactJS, NextJS, and Angular 18</b>. In many projects, I was used
+            to interacting with databases, such as <b>Microsoft SQL Server, MySQL</b>,
             Oracle 10G, and MongoDB in NoSQL databases. Of course, I am familiar
             with{" "}
             <b>
-              Docker, Kubernetes, and Apache Kafka in a cloude based environment
+              Docker, Kubernetes (K8s), and Apache Kafka in a cloude based environment
             </b>
             . My main ambition is to be able to work for an encouraging and
             stable company that will assist me in developing, improving, and
@@ -38,15 +38,16 @@ const About = () => {
           </p>
           <span className="px-2 text-lg font-semibold">Technology Stack:</span>
           <p className="py-2 text-gray-600 text-justify p-4">
+          <b>
+            C#, ASP.NET MVC, ASP.NET Core, Entity framework, SQL Server, SQL Server
+              Management Studio, Linq, SAP Crystal Reports, Database first
+              approach, Code first approach.
+            </b>{" "},
             Semantic Web, Knowledge Graph, Ontologies, <b>Django, Flask</b>,
             Node, Express, React, Java Spring Boot, Java Spring data jpa, Java
             spring web security, MySQL, MongoDB, Middleware, JWT, Passport,
-            LocalStrategy, Local Storage,{" "}
-            <b>
-              Asp.net MVC, C#, Entity framework, SQL Server, SQL Server
-              Management Studio, Linq, SAP Crystal Reports, Database first
-              approach, Code first approach.
-            </b>{" "}
+            LocalStrategy, Local Storage.
+
           </p>
 
           <p className="px-4 py-4 underline cursor-pointer text-blue-500">

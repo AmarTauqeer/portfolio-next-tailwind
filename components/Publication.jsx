@@ -9,6 +9,27 @@ const Publication = () => {
           Publication
         </p>
         <div className="grid md:grid-cols-1 lg:grid-cols-1">
+        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <h4 className="text-gray-600 text-lg">
+            An Infrastructure with Semantic Contracts and Licenses for Improving Data Sharing
+            </h4>
+            <p>Amar Tauqeer</p>
+            <div className=" w-[100px] flex items-center justify-between mt-3">
+              <button className="px-8 py-2 mt-4">
+                <a
+                  href="https://www.researchgate.net/publication/382002379_An_Infrastructure_with_Semantic_Contracts_and_Licenses_for_Improving_Data_Sharing"
+                  target="_blank"
+                >
+                  PDF
+                </a>
+              </button>
+              <button className="px-8 py-2 mt-4 ml-5">
+                <a href="https://doi.org/10.18174/653055" target="_blank">
+                  DOI
+                </a>
+              </button>
+            </div>
+          </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <h4 className="text-gray-600 text-lg">
               Automated GDPR Contract Compliance Verification Using Knowledge
@@ -160,20 +181,21 @@ const Publication = () => {
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <h4 className="text-gray-600 text-lg">
-              An Integrated Approach to GDPR-compliant Data Sharing Employing
-              Consent, Contracts, and Licenses (under review in the journal Data
-              & Knowledge Engineering)
+            A SHACL-based Data Consistency Solution for Contract Compliance Verification
             </h4>
-            <p>Amar Tauqeer, Tek Raj Chhetri, Anna Fensel.</p>
+            <p>
+              Robert David, Albin Ahmeti, Geni Bushati, Amar Tauqeer, Anna
+              Fensel.
+            </p>
             <div className=" w-[100px] flex items-center justify-between mt-3">
-              {/* <button className="px-8 py-2 mt-4">
+              <button className="px-8 py-2 mt-4">
                 <a
-                  href="https://www.trusts-data.eu/wp-content/uploads/2022/06/04_smashHit-Fensel_220603_WSSemanticInteroperability.pdf"
+                  href="https://ceur-ws.org/Vol-3977/OPAL2025-1.pdf"
                   target="_blank"
                 >
                   PDF
                 </a>
-              </button> */}
+              </button>
               {/* <button className="px-8 py-2 mt-4 ml-5">
                 <a href="https://link.springer.com/chapter/10.1007/978-3-030-91305-2_4" target="_blank">
                   DOI
@@ -183,13 +205,11 @@ const Publication = () => {
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <h4 className="text-gray-600 text-lg">
-              SHACL-based Application of Integrity Constraints and Repairs for
-              Contract Compliance Verification (submitted)
+              An Integrated Approach to GDPR-compliant Data Sharing Employing
+              Consent, Contracts, and Licenses (under review in the journal Data
+              & Knowledge Engineering)
             </h4>
-            <p>
-              Robert David, Albin Ahmeti, Geni Bushati, Amar Tauqeer, Anna
-              Fensel.
-            </p>
+            <p>Amar Tauqeer, Tek Raj Chhetri, Anna Fensel.</p>
             <div className=" w-[100px] flex items-center justify-between mt-3">
               {/* <button className="px-8 py-2 mt-4">
                 <a

@@ -13,26 +13,26 @@ const Resume = () => {
                 Dr. Amar Tauqeer (Ph.D.)
               </div>
               <div className="text-justify">
-                I'm an experienced and professional full stack web developer
+                I'm an experienced and professional full-stack web developer
                 having more than 3 years of experience in{" "}
-                <b>full stack web development</b> and more than 3 years in
-                building desktop applications. In full stack development, I
+                <b>full-stack web development</b> and more than 3 years in
+                building desktop applications. In full-stack development, I
                 mainly worked in backend programming languages, namely{" "}
                 <b>
-                  Python (Django, Flask), .Net technologies in C# (ASP Net MVC,
-                  ASP NET Web API, and finally ASP NET Core)
+                  Python (Django, Flask), Microsoft.NET technologies in C# (ASP NET MVC,
+                  ASP.NET Web API, and finally ASP.NET Core 8+)
                 </b>
                 , and Java Spring Boot (basics). While on the frontend side, I
                 have built User Interfaces using
                 <b> ReactJS, NextJS, and Angular</b>. In many projects, I was
                 used to interacting with databases, such as{" "}
-                <b>SQL Server, MySQL</b>, Oracle 10G, and MongoDB in NoSQL
+                <b>Micosoft SQL Server, MySQL</b>, Oracle 10G, and MongoDB in NoSQL
                 databases. Of course, I am familiar with{" "}
                 <b>
-                  Docker, Kubernetes, and Apache Kafka in a cloude based
+                  Docker, Kubernetes (K8s), and Apache Kafka in a cloude based
                   environment
                 </b>
-                . Recently, the semantic stack with Flask has been used in EU project{" "}
+                . The semantic stack with Flask has been used in EU project{" "}
                 <a
                   href="https://cordis.europa.eu/project/id/871477"
                   target="_blank"
@@ -80,8 +80,7 @@ const Resume = () => {
               </div>
               <div className="mt-2">
                 Course Work: Software and Web Development (Django, Flask, ASP.NET Core, React JS, Node JS), 
-                Semantic Web, Research Seminar: Semantic
-                Technology, Text and Web Mining mit RapidMiner, Data Management
+                Semantic Web, Research Seminar: Semantic Technology, Text and Web Mining mit RapidMiner, Data Management
                 and Analysis for Environmental Sciences, Distributed systems,
                 Successful Meetings
               </div>
@@ -210,7 +209,7 @@ const Resume = () => {
                 <ul className="list-disc p-3">
                   <li>Graph validator</li>
                   <li>
-                    Technology: Knowledge Graph, GraphDB, React JS, Node JS,
+                    Technology: Knowledge Graph, GraphDB, React JS, Node JS,ASP.NET Core,
                     Bootstrap 4, REST API's
                   </li>
                   <li>Employment type: Freelancer / project work</li>
