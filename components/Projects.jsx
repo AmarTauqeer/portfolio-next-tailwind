@@ -19,6 +19,7 @@ import DotnetCoreTailwind from "../public/dotnetcorereacttailwind.jpg";
 import DotnetCoreNextEcommerce from "../public/dotnetcore-next-ecommerce.jpg";
 import DotnetCoreMicroserviceK8s from "../public/DotnetcoreMicroserviceK8s.jpg";
 import DotnetCoreAngularAuthenticationAuthorization from "../public/dotnetangular.jpg";
+import atecommerce from "../public/atecommerce.jpg";
 import Link from "next/link";
 
 const Projects = () => {
@@ -32,27 +33,42 @@ const Projects = () => {
         <div className="filterButtons">
           <div className="flex flex-col gap-1 mb-2 md:flex-row md:justify-center lg:flex lg:flex-row lg:justify-center">
             <div>
-              <button data-name="all" className="w-full md:w-24 md:flex-1 lg:flex-1 py-1">
+              <button
+                data-name="all"
+                className="w-full md:w-36 md:flex-1 lg:flex-1 py-1"
+              >
                 All
               </button>
             </div>
             <div>
-              <button data-name="NetC#" className="w-full md:w-24 md:flex-1 lg:flex-1 py-1">
+              <button
+                data-name="NetC#"
+                className="w-full md:w-36 md:flex-1 lg:flex-1 py-1"
+              >
                 .NetC#
               </button>
             </div>
             <div>
-              <button data-name="python" className="w-full md:w-36 md:flex-1 lg:flex-1 py-1">
-                Django|Flask
+              <button
+                data-name="python"
+                className="w-full md:w-48 md:flex-1 lg:flex-1 py-1"
+              >
+                FastAPI|Django|Flask
               </button>
             </div>
             <div>
-              <button data-name="java" className="w-full md:w-24 md:flex-1 lg:flex-1 py-1">
+              <button
+                data-name="java"
+                className="w-full md:w-24 md:flex-1 lg:flex-1 py-1"
+              >
                 Java
               </button>
             </div>
             <div>
-              <button data-name="node" className="w-full md:w-36 md:flex-1 lg:flex-1 py-1">
+              <button
+                data-name="node"
+                className="w-full md:w-36 md:flex-1 lg:flex-1 py-1"
+              >
                 Node|Express
               </button>
             </div>
@@ -60,6 +76,30 @@ const Projects = () => {
         </div>
         <div className="filterableCards">
           <div className="grid md:grid-cols-2 gap-8">
+            <div
+              data-name="python"
+              className="card relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]"
+            >
+              <Image
+                className="rounded-xl group-hover:opacity-10"
+                src={atecommerce}
+                alt=""
+              />
+              <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+                <h3 className="text-2xl text-white tracking-wider text-center">
+                  AT-E-Commerce-Solution
+                </h3>
+                <p className="pb-4 pt-2 text-white text-center uppercase">
+                  FastAPI, Stripe, Next JS, React JS, React PDF, Tailwind CSS,
+                  Shadcn, TypeScript, and PostgreSQL
+                </p>
+                <Link href="/a-t-e-commerce-solution">
+                  <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
+                    More Info
+                  </p>
+                </Link>
+              </div>
+            </div>
             <div
               data-name="NetC#"
               className="card relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]"
@@ -85,6 +125,7 @@ const Projects = () => {
                 </Link>
               </div>
             </div>
+
             <div
               data-name="NetC#"
               className="card relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]"

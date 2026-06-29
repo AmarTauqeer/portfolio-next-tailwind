@@ -19,13 +19,13 @@ const About = () => {
             full-stack development, I mainly worked in backend programming
             languages, namely{" "}
             <b>
-              Python (Django, Flask), .Net technologies in C# (ASP.NET MVC, ASP.NET Web API, 
+              Python (FastAPI, Django, Flask), .Net technologies in C# (ASP.NET MVC, ASP.NET Web API, 
               and finally ASP.NET Core 8+)
             </b>
             , and Java Spring Boot (basics). While on the frontend side, I have
             built User Interfaces using
             <b> ReactJS, NextJS, and Angular 18</b>. In many projects, I was used
-            to interacting with databases, such as <b>Microsoft SQL Server, MySQL</b>,
+            to interacting with databases, such as <b>PostgreSQL, Microsoft SQL Server, MySQL</b>,
             Oracle 10G, and MongoDB in NoSQL databases. Of course, I am familiar
             with{" "}
             <b>
@@ -43,9 +43,9 @@ const About = () => {
               Management Studio, Linq, SAP Crystal Reports, Database first
               approach, Code first approach.
             </b>{" "},
-            Semantic Web, Knowledge Graph, Ontologies, <b>Django, Flask</b>,
+            Semantic Web, Knowledge Graph, Ontologies, <b>FastAPI, Django, Flask</b>,
             Node, Express, React, Java Spring Boot, Java Spring data jpa, Java
-            spring web security, MySQL, MongoDB, Middleware, JWT, Passport,
+            spring web security, PostgreSQL,  MySQL, MongoDB, Middleware, JWT, Passport,
             LocalStrategy, Local Storage.
 
           </p>

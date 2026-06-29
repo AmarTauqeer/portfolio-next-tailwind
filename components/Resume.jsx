@@ -19,7 +19,7 @@ const Resume = () => {
                 building desktop applications. In full-stack development, I
                 mainly worked in backend programming languages, namely{" "}
                 <b>
-                  Python (Django, Flask), Microsoft.NET technologies in C# (ASP NET MVC,
+                  Python (FastAPI, Django, Flask), Microsoft.NET technologies in C# (ASP NET MVC,
                   ASP.NET Web API, and finally ASP.NET Core 8+)
                 </b>
                 , and Java Spring Boot (basics). While on the frontend side, I
@@ -64,7 +64,7 @@ const Resume = () => {
                 <ul className="list-disc p-3">
                   <li>Lerchenfelder gürtel 33/23, 1160 Vienna, Austria</li>
                   <li>+43 688 6404 0449</li>
-                  <li>amar.tauqeer@gmail.com, amar.tauqeer@wur.nl</li>
+                  <li>amar.tauqeer@gmail.com, amar.tauqeer@hotmail.com</li>
                 </ul>
               </div>
               <div className="font-bold mb-1 text-center">Education</div>
@@ -142,10 +142,10 @@ const Resume = () => {
               <div className="bg-gray-300 font-bold w-[150px]">
                 05/2024 - 01/2025
               </div>
-              <div className="italic mt-1">Production Department</div>
+              {/* <div className="italic mt-1">Production Department</div> */}
               <div className="flex">
                 <ul className="list-disc p-3">
-                  <li>Working in Kicthen</li>
+                  <li>Assistant Manager</li>
                 </ul>
               </div>
               <div className="font-bold mb-1 text-orange-600 mt-1">
